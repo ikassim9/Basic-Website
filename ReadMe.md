@@ -1,1 +1,1 @@
-A simple web demo for learning purposes
+A simple web demo for learning purposes. I will be recreating google home page

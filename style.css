@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+   a, .signBtn {
+       font-family:"Roboto,RobotoDraft,Arial,sans-serif";
+       font-size: 14px;
+       
+   }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+     width: 100%;
+   }
+  
+  nav ul {
+    display: flex;
+    margin-right: 10px;
+   }
+  
+  ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+  }
+  
+  .leftnav {
+    margin-left: -20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #000;
+    margin: -10;
+  }
+  
+  .signBtn {
+    background-color:#1a73e8;
+    text-align: center;
+    width: 70px;
+    color: #FFF;
+    padding: 9 15px;
+     border-radius: 4px;
+     margin: 0px 10px;
+     
+  }
+  
+  nav li a:hover {
+    text-decoration: underline;
+ 
+  }
+  
+  .signBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    
+  }
+
+a img{
+      margin: 4 4px;
+      width:70%;
+      
+  }
+  .logo{
+    text-align: center;
+  }
