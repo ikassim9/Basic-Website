@@ -1,69 +1,120 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-   a, .signBtn {
-       font-family:"Roboto,RobotoDraft,Arial,sans-serif";
-       font-size: 14px;
-       
-   }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-     width: 100%;
-   }
-  
-  nav ul {
-    display: flex;
-    margin-right: 10px;
-   }
-  
-  ul li {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #000;
-  }
-  
-  .leftnav {
-    margin-left: -20px;
-  }
-  
-  ul li a {
-    text-decoration: none;
-    color: #000;
-    margin: -10;
-  }
-  
-  .signBtn {
-    background-color:#1a73e8;
-    text-align: center;
-    width: 70px;
-    color: #FFF;
-    padding: 9 15px;
-     border-radius: 4px;
-     margin: 0px 10px;
-     
-  }
-  
-  nav li a:hover {
-    text-decoration: underline;
- 
-  }
-  
-  .signBtn:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    
-  }
 
-a img{
-      margin: 4 4px;
-      width:70%;
-      
-  }
-  .logo{
-    text-align: center;
-  }
+a,
+.signBtn {
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.leftnav {
+  margin-left: -20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: -10;
+}
+
+.signBtn {
+  background-color: #1a73e8;
+  text-align: center;
+  width: 70px;
+  height: 22px;
+  color: #FFF;
+  padding: 9 15px;
+  border-radius: 4px;
+  margin: 0px 10px;
+
+}
+
+nav li a:hover {
+  text-decoration: underline;
+
+}
+
+.signBtn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
+a img {
+  margin: 10 4px;
+  width: 66%;
+
+
+}
+
+.logo {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 620px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 9px;
+  border: 1px solid rgb(223, 225, 229);
+  ;
+}
+
+.input-container #search {
+  font-size: 24px;
+  margin-left: 8px;
+  color: #9AA0A6;
+}
+
+.input-container input {
+  font-size: 20px;
+  flex: 1;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.input-container img {
+  width: 14px;
+  margin-right: 8px;
+}
+
+/* hover over microphone */
+.input-container img:hover {
+  cursor: pointer;
+}
+
+.input-container i:hover {
+  cursor: default;
+}
