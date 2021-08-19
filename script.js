@@ -1,4 +1,4 @@
-let descriptions =["Bored", "Smart", "Busy", "Pizza", "Playful", "Debt", "Noob"];
+let descriptions =["Bored", "Smart", "Busy", "Pizza", "Playful", "Focus", "Noob", "Fortune", "Full","Free", "Focus", "First"];
 let btn = document.getElementById('feeling-lucky');
 
  // changed text in button when hover over.
