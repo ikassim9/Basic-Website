@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  height: 100vh
 }
 
 
@@ -52,7 +53,7 @@ ul li a {
 
 }
 
-nav li a:hover {
+li a:hover {
   text-decoration: underline;
 
 }
@@ -148,4 +149,52 @@ a img {
   color: #202124;
   cursor: pointer;
 
+}
+
+footer .btm_nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.btm_nav ul {
+  align-items: center;
+  margin: 0 15px;
+  padding: 12px;
+
+}
+
+
+
+.btm_nav ul li a {
+  clear: both;
+  color: grey;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btm_nav p {
+  color: grey;
+  margin-right: 150px;
+  padding: 0;
+}
+
+.center-items {
+  display: flex;
+  padding: 0px 10px
+}
+
+.center-items img {
+  height: 14px;
+  margin-top: 16px;
+  margin-right: 6px;
+}
+
+.center-items:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
